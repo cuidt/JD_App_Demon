@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/goodslist_grid_ll"
+    android:layout_marginTop="25dp"
+    android:layout_marginLeft="50dp"
+    android:layout_width="300dp"
+    android:layout_height="350dp"
+    android:orientation="vertical">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/goodslist_grid_iv"
+        android:layout_width="300px"
+        android:layout_height="300px" />
+
+    <TextView
+        android:id="@+id/goodslist_grid_name"
+        android:layout_width="350px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:gravity="center"
+        android:text="sfhfthkft"
+        android:textSize="15sp" />
+
+    <TextView
+        android:textColor="#ef0606"
+        android:id="@+id/goodslist_grid_price"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15px"
+        android:gravity="center"
+        android:text="sfhfthkft"
+        android:textSize="30px" />
+</LinearLayout>

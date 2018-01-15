@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jd.com.jd_app_demon.MainActivity">
+
+<!--
+  <com.hjm.bottomtabbar.BottomTabBar
+      android:id="@+id/bottom_tab_bar"
+      app:tab_img_height="20px"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+
+  </com.hjm.bottomtabbar.BottomTabBar>
+-->
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/fl_all"
+      android:fitsSystemWindows="true"
+      android:layout_above="@+id/ll_bottom"
+      >
+  </FrameLayout>
+
+  <LinearLayout
+      android:id="@+id/ll_bottom"
+      android:layout_alignParentBottom="true"
+      android:layout_width="match_parent"
+      android:layout_height="60px">
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_head"
+        android:src="@mipmap/ac1"
+        />
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_kind"
+        android:src="@mipmap/abw"
+        />
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_find"
+        android:src="@mipmap/aby"
+        />
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_shopping"
+        android:src="@mipmap/abu"
+        />
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_my"
+        android:src="@mipmap/ac2"
+        />
+
+  </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250px"
+    android:background="#fff9f5"
+    android:orientation="horizontal"
+    android:layout_marginTop="40px"
+    android:paddingLeft="20dp">
+
+    <CheckBox
+        android:id="@+id/cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp" />
+
+        <LinearLayout
+            android:layout_marginTop="10px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="100px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#ff3660" />
+
+            <jd.com.jd_app_demon.util.AddDelView
+                android:id="@+id/adv"
+                android:layout_width="180px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                >
+            </jd.com.jd_app_demon.util.AddDelView>
+
+           <!-- <Button
+                android:id="@+id/bt_del"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="100px"
+                android:background="#f00"
+                android:text="删除"
+                android:textColor="#fff" />-->
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

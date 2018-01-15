@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="jd.com.jd_app_demon.activity.SeekActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100px">
+        <TextView
+            android:id="@+id/tui"
+            android:gravity="center"
+            android:layout_width="65px"
+            android:background="@mipmap/leftjiantou"
+            android:layout_height="65px" />
+        <EditText
+            android:id="@+id/seek_sousuo"
+            android:drawableRight="@mipmap/root"
+            android:drawableLeft="@mipmap/search_icon2"
+            android:layout_weight="8"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:gravity="center_vertical"
+            android:drawablePadding="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/show_hind"
+            android:hint=" 搜索京东商品/店铺"
+            android:layout_width="0px"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/seek"
+            android:text="搜索"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:padding="3px"
+            android:layout_weight="0.8"
+            android:layout_width="0px"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <View
+        android:layout_marginTop="5px"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#55000000" />
+    <LinearLayout
+        android:layout_marginTop="40px"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="500px">
+        <TextView
+            android:text="  热搜"
+            android:textSize="40px"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="20px"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_weight="2.5"
+                android:text="保湿护手霜"
+                android:textColor="#6d6d6d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_weight="2.5"
+                android:text="篮球"
+                android:textColor="#6d6d6d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textColor="#6d6d6d"
+                android:layout_weight="2.5"
+                android:text="高清线hdmi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textColor="#6d6d6d"
+                android:layout_weight="2.5"
+                android:text="碟机播放器"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+         <LinearLayout
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <Button
+                 android:textColor="#6d6d6d"
+                 android:text="唇彩唇蜜"
+                 android:layout_weight="2.5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+             <Button
+                 android:textColor="#6d6d6d"
+                 android:text="珍珠胸针"
+                 android:layout_weight="2.5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+             <Button
+                 android:textColor="#6d6d6d"
+                 android:layout_weight="2.5"
+                 android:text="一体机电脑"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+             <Button
+                 android:textColor="#6d6d6d"
+                 android:layout_weight="2.5"
+                 android:text="小米手环"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+         </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:textColor="#6d6d6d"
+                android:layout_weight="2.5"
+                android:text="电视柜"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textColor="#6d6d6d"
+                android:layout_weight="2.5"
+                android:text="防护眼镜"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_weight="2.5"
+                android:text=" "
+                android:background="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_weight="2.5"
+                android:text=" "
+                android:background="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

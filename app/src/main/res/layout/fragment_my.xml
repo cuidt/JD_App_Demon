@@ -1,0 +1,243 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    tools:context="jd.com.jd_app_demon.fragment.MyFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@mipmap/yuan"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="200px">
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/user_tx"
+                fresco:roundAsCircle="true"
+                android:layout_gravity="center"
+                android:background="@mipmap/user"
+                android:layout_marginLeft="40px"
+                android:layout_width="100px"
+                android:layout_height="100px" />
+            <LinearLayout
+                android:id="@+id/my_login"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/LoginorLeg"
+                    android:text="登录/注册  "
+                    android:textColor="#FFFFFF"
+                    android:textSize="30px"
+                    android:layout_marginLeft="20px"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20px"
+                android:layout_marginLeft="270px"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/sz"
+                    android:background="@mipmap/sz"
+                    android:layout_width="50px"
+                    android:layout_height="50px" />
+                <ImageView
+                    android:layout_marginLeft="20px"
+                    android:background="@mipmap/my_msg_bai"
+                    android:layout_width="50px"
+                    android:layout_height="50px" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="30px"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="300px">
+
+           <LinearLayout
+               android:layout_weight="5"
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+               <TextView
+                   android:drawableTop="@mipmap/dfk1"
+                   android:drawablePadding="15px"
+                   android:layout_weight="2"
+                   android:text="待付款"
+                   android:gravity="center_horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" />
+               <TextView
+                   android:drawableTop="@mipmap/dsh"
+                   android:drawablePadding="15px"
+                   android:gravity="center_horizontal"
+                   android:layout_weight="2"
+                   android:text="待收货"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" />
+               <TextView
+                   android:drawableTop="@mipmap/dpj"
+                   android:drawablePadding="15px"
+                   android:gravity="center_horizontal"
+                   android:layout_weight="2"
+                   android:text="待评价"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" />
+               <TextView
+                   android:drawableTop="@mipmap/th_sh"
+                   android:drawablePadding="15px"
+                   android:gravity="center_horizontal"
+                   android:layout_weight="2"
+                   android:text="退换/售后"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" />
+               <TextView
+                   android:drawableTop="@mipmap/mydd"
+                   android:drawablePadding="15px"
+                   android:gravity="center_horizontal"
+                   android:layout_weight="2"
+                   android:text="我的订单"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" />
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_weight="5"
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+               <TextView
+                   android:drawableTop="@mipmap/jd"
+                   android:drawablePadding="15px"
+                   android:layout_weight="2"
+                   android:text="京豆"
+                   android:gravity="center_horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" />
+               <TextView
+                   android:drawableTop="@mipmap/yhq"
+                   android:drawablePadding="15px"
+                   android:gravity="center_horizontal"
+                   android:layout_weight="2"
+                   android:text="优惠券"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" />
+               <TextView
+                   android:drawableTop="@mipmap/bt"
+                   android:drawablePadding="15px"
+                   android:gravity="center_horizontal"
+                   android:layout_weight="2"
+                   android:text="白条"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" />
+               <TextView
+                   android:drawableTop="@mipmap/lpk"
+                   android:drawablePadding="15px"
+                   android:gravity="center_horizontal"
+                   android:layout_weight="2"
+                   android:text="礼品卡"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" />
+               <TextView
+                   android:drawablePadding="15px"
+                   android:drawableTop="@mipmap/myqb"
+                   android:gravity="center_horizontal"
+                   android:layout_weight="2"
+                   android:text="我的钱包"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" />
+           </LinearLayout>
+        </LinearLayout>
+        <View
+            android:background="#f1f2f6"
+            android:layout_width="match_parent"
+            android:layout_height="20px"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="80dp">
+                <TextView
+                    android:drawableTop="@mipmap/neirongguanzhu"
+                    android:layout_weight="2"
+                    android:text="商品关注"
+                    android:drawablePadding="15px"
+                    android:gravity="center_horizontal"                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:drawableTop="@mipmap/dpguanzhu"
+                    android:drawablePadding="15px"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:text="店铺关注"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:drawableTop="@mipmap/neirongshoucang"
+                    android:drawablePadding="15px"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:text="内容收藏"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:drawableTop="@mipmap/liulanjilu"
+                    android:drawablePadding="15px"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:text="浏览记录"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="80dp">
+                <TextView
+                    android:drawableTop="@mipmap/wodehuodong"
+                    android:drawablePadding="15px"
+                    android:layout_weight="2"
+                    android:text="我的活动"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:drawableTop="@mipmap/shequ"
+                    android:drawablePadding="15px"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:text="社区"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:drawableTop="@mipmap/kehufuwu"
+                    android:drawablePadding="15px"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:text="客户服务"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:drawablePadding="15px"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#0e0e0e</color>
+    <color name="tv_kind_name_item">#000</color>
+    <color name="tab_kind_normal">#000</color>
+    <color name="shape_ring_select">#f00</color>
+    <color name="tab_kind_select">#f00</color>
+    <color name="shape_ring_normal">#ccc</color>
+    <color name="tuijian_tvbg">#f00</color>
+    <color name="miaoshao_tvbg">#f00</color>
+    <color name="tuijian_rcv_item_tvbg">#f00</color>
+    <color name="tuijian_btn_like_tv">#666</color>
+    <color name="miaosha_tv_time">#fff</color>
+    <color name="miaosha_tv_item_now">#f00</color>
+    <color name="my_tv_reg">#fff</color>
+    <color name="my_jindong">#000</color>
+    <color name="tv_shop_title">#000</color>
+    <color name="tv_shopcar">#fff</color>
+    <color name="tv_shop_subtitle">#f00</color>
+    <color name="tab_xia_bg">#000</color>
+</resources>
